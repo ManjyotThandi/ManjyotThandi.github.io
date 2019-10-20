@@ -33,6 +33,12 @@ body{font-family:Muli,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvet
 .project3:hover {
     box-shadow: 0 10px 16px 0 rgba(0,0,0,0.9);
 }
+.project4 {
+    text-align: center;
+}
+.project4:hover {
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.9);
+}
 
 .button {
     color:black;
@@ -56,7 +62,7 @@ body{font-family:Muli,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvet
     margin-bottom: 10px;
 }
 @media screen and (max-width: 900px) {
-    .project1, .project2, .project3, .projectsheet, .button, .button1 {
+    .project1, .project2, .project3, .project4, .projectsheet, .button, .button1 {
       width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
       flex-direction: column;
       text-align: justify
